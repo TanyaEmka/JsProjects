@@ -1,0 +1,32 @@
+.note3 {
+    background: linear-gradient(180deg, #36322C 15.11%, #4F4F4F 73.33%, #6C817F 168.73%);
+}
+
+.note3 .info {
+    height: 80%;
+    width: 85%;
+    border: 1.5px solid rgba(95, 234, 209, 0.64);
+    border-radius: 2vh;
+    color: #72CFBF;
+    margin-top: 7%;
+    margin-left: 6.5%;
+}
+
+.note3 .info .name {
+    text-align: center;
+    padding: 5px;
+    font-size: 2vh;
+    font-weight: lighter;
+}
+
+.note3 .info .text {
+    margin-top: 3%;
+    height: 55%;
+}
+
+.note3 .info .text, .note3 .info .data {
+    font-size: 0.98vh;
+    width: 86%;
+    text-align: justify;
+    margin-left: 7%;
+}

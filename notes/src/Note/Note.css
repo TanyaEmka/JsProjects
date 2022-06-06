@@ -1,0 +1,17 @@
+.card {
+    width: 30vh;
+    height: 26vh;
+    /* border: 1px solid red; */
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vh;
+}
+
+.note {
+    width: 88%;
+    height: 83%;
+    border-radius: 2vh;
+    /* border: 1px solid red; */
+}

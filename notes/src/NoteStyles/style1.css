@@ -1,0 +1,38 @@
+.card1 {
+    background: linear-gradient(329.51deg, rgba(116, 59, 51, 0.78) 22.48%, rgba(194, 125, 103, 0.9) 87%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.note1 {
+    background: url("../images/style1/Card.png");
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    background-size: 100% 100%;
+}
+
+.note1 .info {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.note1 .info .name {
+    text-align: center;
+    color: #8F6760;
+    font-size: 2.3vh;
+    margin-top: 7%;
+    margin-bottom: 3%;
+}
+
+.note1 .info .text {
+    height: 45%;
+}
+
+.note1 .info .text, .note1 .info .data {
+    width: 76%;
+    font-size: 1vh;
+    text-align: justify;
+    color: #664444;
+    margin-left: 12%;
+    text-shadow: 0px 0px 5px rgba(163, 80, 34, 0.91);
+}
