@@ -4,7 +4,7 @@
     flex: 1;
     flex-wrap: wrap;
     margin: 20px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .notes {

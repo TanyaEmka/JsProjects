@@ -1,0 +1,41 @@
+.note6 {
+    position: relative;
+    background: url("../images/style6/StyleBackground.png");
+    background-size: 100% 100%;
+    -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.4));
+    -moz-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.4));
+    -o-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.4));
+    -ms-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.4));
+}
+
+.note6 .info .name {
+    position: absolute;
+    font-size: 2.7vh;
+    color: #AE6451;
+    font-weight: 500;
+    margin-top: 13%;
+    margin-left: 8%;
+}
+
+.note6 .info .text {
+    position: absolute;
+    font-size: 1vh;
+    width: 38%;
+    text-align: justify;
+    margin-left: 53%;
+    margin-top: 20%;
+}
+
+.note6 .info .data {
+    position: absolute;
+    margin-top: 52%;
+    font-size: 1.3vh;
+    margin-left: 8%;
+    font-weight: lighter;
+}
+
+.note6 .info .text, .note6 .info .data {
+    color: white;
+}
+
