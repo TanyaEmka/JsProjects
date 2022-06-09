@@ -1,5 +1,6 @@
 .card5 {
     position: relative;
+    background-size: 100% 100%;
 }
 
 .note5 {
@@ -47,8 +48,12 @@
 }
 
 .note5 .info .text, .note5 .info .data {
-    font-size: 1vh;
+    font-size: 1.3vh;
     font-weight: 500;
     margin-left: 20%;
+}
+
+.note5 .settings .edit div, .note5 .settings .delete div {
+    display: none;
 }
 

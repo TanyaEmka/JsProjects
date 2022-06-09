@@ -33,6 +33,14 @@ export const Note: React.FC<NoteProps> = ({cardstyle}) => {
                         <p>00.00.0000</p>
                     </div>
                 </div>
+                <div className="settings">
+                    <div className="edit">   
+                        <div>Edit</div>
+                    </div>
+                    <div className="delete">
+                        <div>Delete</div>
+                    </div>
+                </div>
             </div>
         </div>
     )

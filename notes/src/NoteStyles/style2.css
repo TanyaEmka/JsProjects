@@ -25,7 +25,7 @@
 }
 
 .note2 .info .name {
-    font-size: 1.6vh;
+    font-size: 2vh;
     font-weight: bold;
     margin-top: 7%;
     text-align: center;
@@ -50,7 +50,7 @@
 }
 
 .note2 .info .text, .note2 .info .data {
-    font-size: 1vh;
+    font-size: 1.3vh;
     margin-left: 10%;
     font-weight: bold;
 }
@@ -69,4 +69,40 @@
     -o-filter: drop-shadow(4px 9px 4px rgba(0, 0, 0, 0.16));
     -ms-filter: drop-shadow(4px 9px 4px rgba(0, 0, 0, 0.16));
     filter: drop-shadow(4px 9px 4px rgba(0, 0, 0, 0.16));
+}
+
+.note2 .settings {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    height: 7%;
+    left: 72%;
+    top: 82%;
+}
+
+.note2 .settings .edit {
+    background: url("../images/style2/Edit.png");
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.note2 .settings .delete {
+    background: url("../images/style2/Delete.png");
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.note2 .settings .edit, .note2 .settings .delete {
+    width: 32%;
+    transition-duration: 0.5s;
+}
+
+.note2 .settings .edit:hover, .note2 .settings .delete:hover {
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+.note2 .settings .edit div, .note2 .settings .delete div {
+    display: none;
 }

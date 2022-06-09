@@ -1,3 +1,7 @@
+.card3 {
+    position: relative;
+}
+
 .note3 {
     background: linear-gradient(180deg, #36322C 15.11%, #4F4F4F 73.33%, #6C817F 168.73%);
 }
@@ -25,8 +29,31 @@
 }
 
 .note3 .info .text, .note3 .info .data {
-    font-size: 0.98vh;
+    font-size: 1.3vh;
     width: 86%;
     text-align: justify;
     margin-left: 7%;
+}
+
+.note3 .settings {
+    position: absolute;
+    background: url("../images/style3/Settings.png");
+    background-size: 100% 100%;
+    width: 6%;
+    height: 2%;
+    left: 85%;
+    top: 85%;
+}
+
+.note3 .settings:hover {
+    transition-duration: 0.5s;
+    -webkit-filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.8));
+    -moz-filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.8));
+    -o-filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.8));
+    -ms-filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.8));
+    filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.8));
+}
+
+.note3 .settings .edit div, .note3 .settings .delete div {
+    display: none;
 }

@@ -1,3 +1,7 @@
+.card6 {
+    position: relative;
+}
+
 .note6 {
     position: relative;
     background: url("../images/style6/StyleBackground.png");
@@ -20,7 +24,7 @@
 
 .note6 .info .text {
     position: absolute;
-    font-size: 1vh;
+    font-size: 1.3vh;
     width: 38%;
     text-align: justify;
     margin-left: 53%;
@@ -30,12 +34,54 @@
 .note6 .info .data {
     position: absolute;
     margin-top: 52%;
-    font-size: 1.3vh;
+    font-size: 1.5vh;
     margin-left: 8%;
     font-weight: lighter;
 }
 
 .note6 .info .text, .note6 .info .data {
     color: white;
+}
+
+.note6 .settings {
+    position: absolute;
+    color: white;
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 70%;
+    bottom: 0%;
+    font-size: 1.5vh;
+    margin-left: 8%;
+    font-weight: lighter;
+}
+
+.note6 .settings .edit, .note6 .settings .delete {
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-bottom: 7%;
+    padding-right: 2%;
+    transition-duration: 0.5s;
+}
+
+.note6 .settings .edit:hover, .note6 .settings .delete:hover {
+    color: #FFF176;
+    -webkit-filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.8));
+    -moz-filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.8));
+    -o-filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.8));
+    -ms-filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.8));
+    filter: drop-shadow(0px 0px 4px rgba(255, 255, 255, 0.8));
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    transition-duration: 0.5s;
+}
+
+.note6 .settings .delete {
+    padding-left: 2%;
+}
+
+.note6 .settings .edit {
+    border-right: 1px solid white;
 }
 
