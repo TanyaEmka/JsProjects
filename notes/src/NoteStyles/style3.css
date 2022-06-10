@@ -19,7 +19,7 @@
 .note3 .info .name {
     text-align: center;
     padding: 5px;
-    font-size: 2vh;
+    font-size: 120%;
     font-weight: lighter;
 }
 
@@ -29,7 +29,7 @@
 }
 
 .note3 .info .text, .note3 .info .data {
-    font-size: 1.3vh;
+    font-size: 65%;
     width: 86%;
     text-align: justify;
     margin-left: 7%;

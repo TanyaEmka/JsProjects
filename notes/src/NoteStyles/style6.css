@@ -15,7 +15,7 @@
 
 .note6 .info .name {
     position: absolute;
-    font-size: 2.7vh;
+    font-size: 150%;
     color: #AE6451;
     font-weight: 500;
     margin-top: 13%;
@@ -24,7 +24,7 @@
 
 .note6 .info .text {
     position: absolute;
-    font-size: 1.3vh;
+    font-size: 70%;
     width: 38%;
     text-align: justify;
     margin-left: 53%;
@@ -34,7 +34,7 @@
 .note6 .info .data {
     position: absolute;
     margin-top: 52%;
-    font-size: 1.5vh;
+    font-size: 80%;
     margin-left: 8%;
     font-weight: lighter;
 }
@@ -50,7 +50,7 @@
     flex-wrap: wrap;
     width: 70%;
     bottom: 0%;
-    font-size: 1.5vh;
+    font-size: 80%;
     margin-left: 8%;
     font-weight: lighter;
 }

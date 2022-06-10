@@ -27,7 +27,7 @@
 
 .note5 .info .name {
     text-align: center;
-    font-size: 2.5vh;
+    font-size: 160%;
     font-weight: 500;
     margin-top: 8%;
 }
@@ -48,7 +48,7 @@
 }
 
 .note5 .info .text, .note5 .info .data {
-    font-size: 1.3vh;
+    font-size: 67%;
     font-weight: 500;
     margin-left: 20%;
 }

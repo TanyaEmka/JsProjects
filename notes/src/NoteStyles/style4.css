@@ -19,7 +19,7 @@
 
 .note4 .info .name {
     text-align: center;
-    font-size: 2vh;
+    font-size: 140%;
     margin-top: 5%;
     font-weight: 500;
 }
@@ -32,7 +32,7 @@
 }
 
 .note4 .info .text, .note4 .info .data {
-    font-size: 1.3vh;
+    font-size: 70%;
     margin-left: 9%;
 }
 

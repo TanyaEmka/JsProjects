@@ -24,7 +24,7 @@
 .note1 .info .name {
     text-align: center;
     color: #8F6760;
-    font-size: 2.3vh;
+    font-size: 150%;
     margin-top: 7%;
     margin-bottom: 3%;
 }
@@ -35,7 +35,7 @@
 
 .note1 .info .text, .note1 .info .data {
     width: 76%;
-    font-size: 1.3vh;
+    font-size: 70%;
     text-align: justify;
     color: #664444;
     margin-left: 12%;

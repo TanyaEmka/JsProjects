@@ -25,7 +25,7 @@
 }
 
 .note2 .info .name {
-    font-size: 2vh;
+    font-size: 130%;
     font-weight: bold;
     margin-top: 7%;
     text-align: center;
@@ -50,7 +50,7 @@
 }
 
 .note2 .info .text, .note2 .info .data {
-    font-size: 1.3vh;
+    font-size: 65%;
     margin-left: 10%;
     font-weight: bold;
 }
