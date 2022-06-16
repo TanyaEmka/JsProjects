@@ -1,0 +1,77 @@
+.edit_box {
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    /*display: block;*/
+    display: none;
+    border-radius: 2vh 2vh 0 0;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.25);
+    background-color: white;
+}
+
+.edit_box .edit_name {
+    box-sizing: border-box;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.edit_box .edit_name input {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font-size: 2vh;
+    padding: 1.3vh;
+    border: none;
+    border-bottom: 2px solid #E8E8E8; 
+}
+
+.edit_box .edit_text {
+    box-sizing: border-box;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.edit_box .edit_text textarea {
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-top: 1vh;
+    height: 20vh;
+    width: 100%;
+    resize: none;
+    text-align: justify;
+}
+
+.edit_box .edit_text textarea:focus {
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.edit_box .settings {
+    box-sizing: border-box;
+    display: inline-flex;
+    text-align: center;
+    border-radius: 1.5vh 1.5vh 0 0;
+    background: #ECECEC;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.33);
+    color: #747474;
+}
+
+.edit_box .settings .clear {
+    width: 50%;
+    padding: 1.3vh;
+    font-size: 1.5vh;
+    border-radius: 1.5vh 0 0 0;
+    border-right: 2px solid #CECECE;
+}
+
+.edit_box .settings .delete {
+    width: 50%;
+    padding: 1.3vh;
+    font-size: 1.5vh;
+    border-radius: 0 1.5vh 0 0;
+}

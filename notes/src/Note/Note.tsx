@@ -1,6 +1,6 @@
 import React from "react";
 import "./Note.css";
-import "../NoteStyles/reset_css.css"
+import "../NoteStyles/reset_css.css";
 import "../NoteStyles/style1.css";
 import "../NoteStyles/style2.css";
 import "../NoteStyles/style3.css";

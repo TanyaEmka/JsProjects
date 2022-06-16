@@ -6,7 +6,7 @@ export const NotesBox = () => {
     const styles = [1, 2, 3, 4, 5, 6];
 
     return (
-        <div>
+        <div className="notes_box">
             <p className="notes">Notes</p>
             <div className="cards">
                 {styles.map((item) => {
@@ -15,7 +15,7 @@ export const NotesBox = () => {
                     )
                 })}
             </div>
-            <a href="https://www.figma.com/file/aPKX4e421diHNYOpjT70BZ/Notes?node-id=0%3A1"><p className="design">{">>>"}Design</p></a>
+            <a href="https://www.figma.com/file/aPKX4e421diHNYOpjT70BZ/Notes?node-id=0%3A1"><p className="design">{">>>"}Design</p></a> 
         </div>
     )
 }
