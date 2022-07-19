@@ -1,0 +1,40 @@
+.second_page {
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.second_page .second_buttons {
+    margin-top: 5.3vh;
+}
+
+.yellow_text {
+    margin-top: 5.3vh;
+    font-size: 4vh;
+    color: #F3CD03;
+}
+
+.second_page .second {
+    width: 35%;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+@media screen and (max-width: 920px) {
+    .second_page .second {
+        width: 70%;
+    }
+
+    .second_page .f_heading {
+        width: 60%;
+        margin-left: 50%;
+        transform: translate(-50%, 0%);
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .second_page .second {
+        width: 35%;
+    }
+}

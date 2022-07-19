@@ -1,0 +1,50 @@
+/* classes: */
+/* menu_navbar */
+/* menu_footer */
+
+.menu {
+    font-size: 2.1vh;
+}
+
+.menu div {
+    font-weight: 500;
+}
+
+.menu div p, .menu div p:hover {
+    transition-duration: 0.3s;
+}
+
+.menu div p:hover {
+    color: #00B6F0;
+}
+
+.menu div p {
+    user-select: none;
+}
+
+@media screen and (min-width: 920px) {
+    .menu_navbar, .menu_footer {
+        display: inline-flex;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .menu div {
+        padding-right: 6.5vh;
+    }
+
+    .menu .last {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .menu_navbar {
+        display: none;
+    }
+
+    .menu_footer {
+        display: block;
+    }
+}

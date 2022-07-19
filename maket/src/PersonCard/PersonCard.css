@@ -1,0 +1,16 @@
+.person_card {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.person_card .info {
+    line-height: 0.7vh;
+    text-align: left;
+    padding-left: 2vh;
+}
+
+.person_card .info .p_name {
+    font-weight: bold;
+}

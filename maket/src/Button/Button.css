@@ -1,0 +1,86 @@
+/* classes: */
+/* button - main class */
+/* login_button */
+/* white_button */
+/* blue_button */
+/* main_white_button */
+/* main_blue_button */
+
+.button input {
+    border-radius: 10vh;
+    outline: none !important;
+    font-weight: 700;
+    font-size: 2vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    transition-duration: 0.3s;
+}
+
+.button input:hover {
+    transition-duration: 0.3s;
+}
+
+.login_button input {
+    width: 100%;
+    border: 0.1vh solid #00B6F0;
+    color: #00B6F0;
+    background: white;
+}
+
+.white_button input {
+    border: 3px solid #00B6F0;
+    background: white;
+    color: #00B6F0;
+}
+
+.white_button input:hover, .blue_button input, .login_button input:hover {
+    background: #00B6F0;
+    color: white;
+}
+
+.blue_button input {
+    border: 3px solid #00B6F0;
+}
+
+.blue_button input:hover {
+    background: white;
+    color: #00B6F0;
+}
+
+.main_blue_button input, .main_white_button input {
+    border: none;
+}
+
+.main_blue_button input, .main_white_button input:hover {
+    color: white;
+    background: #00B6F0;
+}
+
+.main_blue_button input:hover {
+    color: black;
+    background: white;
+}
+
+.main_white_button input {
+    background: white;
+}
+
+@media screen and (max-width: 920px) {
+    .login_button {
+        width: 15vh;
+    }
+
+    .button input {
+        height: 5vh;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .login_button {
+        width: 17vh;
+    }
+
+    .button input {
+        height: 6.3vh;
+    }
+}

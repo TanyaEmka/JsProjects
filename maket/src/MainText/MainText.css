@@ -1,0 +1,35 @@
+.main_text {
+    margin: 0 auto;
+    margin-top: 19.3vh;
+    text-align: center;
+}
+
+.first {
+    font-weight: 700;
+    color: #112D57;
+    letter-spacing: 0.2px;
+}
+
+.second {
+    margin-top: 3.6vh;
+}
+
+@media screen and (max-width: 920px)  {
+    .main_text {
+        width: 75%;
+    }
+
+    .first {
+        font-size: 6.2vh;
+    }
+}
+
+@media screen and (min-width: 920px)  {
+    .main_text {
+        width: 42%;
+    }
+
+    .first {
+        font-size: 7.5vh;
+    }
+}

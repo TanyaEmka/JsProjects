@@ -1,0 +1,40 @@
+.main_page {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.main_page .screen {
+    left: 50%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 3.5vh;
+}
+
+@media screen and (max-width: 920px) {
+    .main_page .screen {
+        width: 95%;
+        margin-bottom: 15vh;
+    }
+
+    .main_page {
+        background: url('../images/phone_version/background1.png') no-repeat,
+                    url('../images/phone_version/background2.png') no-repeat,
+                    linear-gradient(to bottom, #ffffff, #FBFEFE, #edf9ff, #F0FDFC, #D4FAF5, #BCF6F0, #BCF6F0, #D4FAF5, #F0FDFC, #edf9ff, #FBFEFE, #ffffff);
+        background-position: 0vh 28vh, right 0vh top 63vh, 0vh 0vh;
+        background-size: 11vh 75vh, 12vh 57vh, 100% 100%;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .main_page .screen {
+        width: 87%;
+    }
+
+    .main_page {
+        background: url('../images/background1.png') no-repeat,
+                    url('../images/background2.png') no-repeat,
+                    linear-gradient(to bottom, #ffffff, #FBFEFE, #edf9ff, #F0FDFC, #D4FAF5, #BCF6F0, #BCF6F0, #D4FAF5, #F0FDFC, #edf9ff, #FBFEFE, #ffffff);
+        background-position: 0vh 35vh, right 0vh top 57vh,0vh 0vh;
+        background-size: 35vh 82vh, 42vh 60vh, 100% 100%;
+    }
+}

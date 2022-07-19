@@ -1,0 +1,49 @@
+.meeting_box {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(180deg, #E9FAFF 0%, rgba(233, 250, 255, 0) 100%);
+}
+
+.meeting {
+    margin: 0 auto;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    width: 70%;
+    position: relative;
+}
+
+.meeting .m_desc {
+    padding-top: 1.5vh;
+    display: block;
+}
+
+.meeting .m_desc div {
+    margin-bottom: 5vh;
+}
+
+@media screen and (max-width: 920px) {
+    .meeting {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .meeting .m_desc {
+        margin: 0 auto;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .meeting {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .meeting .m_desc {
+        width: 60%;
+    }
+}

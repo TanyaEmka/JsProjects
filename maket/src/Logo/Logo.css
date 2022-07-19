@@ -1,0 +1,15 @@
+.figma_pic img {
+    width: 100%;
+}
+
+@media screen and (max-width: 920px) {
+    .figma_pic {
+        width: 20vh;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .figma_pic {
+        width: 22vh;
+    }
+}

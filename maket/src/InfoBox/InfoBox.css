@@ -1,0 +1,100 @@
+.f_box, .s_box {
+    box-sizing: border-box;
+    width: 100%;
+    padding-bottom: 7vh;
+    padding-top: 7vh;
+}
+
+.f_info_box, .s_info_box {
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 12vh;
+}
+
+.f_info_box .pic img, .s_info_box .pic img {
+    width: 100%;
+}
+
+@media screen and (max-width: 920px) {
+    .f_info_box, .s_info_box {
+        width: 80%;
+    }
+
+    .f_info_box, .s_info_box {
+        display: block;
+        align-items: center;
+        margin-left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .f_info_box .desc {
+        width: 90%;
+        text-align: center;
+    }
+    
+    .s_info_box .desc {
+        width: 80%;
+        text-align: center;
+    }    
+
+    .f_info_box .desc, .s_info_box .desc {
+        margin-left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .f_info_box .pic, .s_info_box .pic {
+        width: 100%;
+    }
+
+    .f_box {
+        background: url('../images/phone_version/info1.png') no-repeat;
+        background-position: bottom 0vh left 0vh;
+        background-size: 25vh;
+    }
+    
+    .s_box {
+        background: url('../images/phone_version/info2.png') no-repeat;
+        background-position: top 10vh right 0vh;
+        background-size: 20vh;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .f_info_box {
+        width: 80%;
+    }
+    
+    .s_info_box {
+        width: 78%;
+    }
+
+    .f_info_box, .s_info_box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .f_info_box .desc {
+        width: 43%;
+    }
+    
+    .s_info_box .desc {
+        width: 40%;
+    }    
+
+    .f_info_box .pic, .s_info_box .pic {
+        width: 60vh;
+    }
+
+    .f_box {
+        background: url('../images/info1.png') no-repeat;
+        background-position: bottom 1vh right 0vh;
+        background-size: 32vh;
+    }
+    
+    .s_box {
+        background: url('../images/info2.png') no-repeat;
+        background-position: top 13vh left 0vh;
+        background-size: 39vh;
+    }
+}

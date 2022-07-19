@@ -1,0 +1,36 @@
+.buttons {
+    margin: 0 auto;
+}
+
+.main_buttons {
+    margin-top: 11vh;
+}
+
+.second_buttons {
+    margin-top: 5.3vh;
+}
+
+@media screen and (max-width: 920px) {
+    .main_buttons {
+        width: 85%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .second_buttons {
+        width: 65%;
+    }
+
+    .second_buttons .button input {
+        margin-top: 2vh;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    .main_buttons, .second_buttons {
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,19 @@
+.third_page {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 8vh;
+}
+
+.third_page .progress_box {
+    margin-top: 12vh;
+    margin-bottom: 6vh;
+}
+
+@media screen and (max-width: 920px) {
+    .third_page .t_desc {
+        width: 80%;
+        margin-left: 50%;
+        transform: translate(-50%, 0%);
+    }
+}

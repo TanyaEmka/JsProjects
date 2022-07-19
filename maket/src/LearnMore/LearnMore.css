@@ -1,0 +1,9 @@
+.learn_more {
+    font-size: 2.2vh;
+}
+
+.learn_more a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #00B6F0;
+}
